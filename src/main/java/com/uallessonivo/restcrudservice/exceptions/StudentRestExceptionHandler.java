@@ -1,5 +1,6 @@
-package com.uallessonivo.restcrudservice.controllers;
+package com.uallessonivo.restcrudservice.exceptions;
 
+import com.uallessonivo.restcrudservice.models.StudentErrorResponse;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ControllerAdvice;

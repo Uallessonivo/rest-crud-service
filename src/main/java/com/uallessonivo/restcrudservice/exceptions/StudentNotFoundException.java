@@ -1,4 +1,4 @@
-package com.uallessonivo.restcrudservice.controllers;
+package com.uallessonivo.restcrudservice.exceptions;
 
 public class StudentNotFoundException extends RuntimeException {
     public StudentNotFoundException(String message) {

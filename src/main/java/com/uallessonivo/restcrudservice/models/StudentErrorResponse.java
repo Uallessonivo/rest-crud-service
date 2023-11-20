@@ -1,4 +1,4 @@
-package com.uallessonivo.restcrudservice.controllers;
+package com.uallessonivo.restcrudservice.models;
 
 public class StudentErrorResponse {
     private int status;

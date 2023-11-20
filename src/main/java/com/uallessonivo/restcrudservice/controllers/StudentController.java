@@ -1,6 +1,7 @@
 package com.uallessonivo.restcrudservice.controllers;
 
 import com.uallessonivo.restcrudservice.entities.Student;
+import com.uallessonivo.restcrudservice.exceptions.StudentNotFoundException;
 import jakarta.annotation.PostConstruct;
 import org.springframework.web.bind.annotation.*;
 
