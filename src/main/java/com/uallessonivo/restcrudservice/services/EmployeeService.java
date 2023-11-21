@@ -1,10 +1,10 @@
-package com.uallessonivo.restcrudservice.dao;
+package com.uallessonivo.restcrudservice.services;
 
 import com.uallessonivo.restcrudservice.entities.Employee;
 
 import java.util.List;
 
-public interface EmployeeDAO {
+public interface EmployeeService {
     List<Employee> findAll();
     Employee findById(int theId);
     Employee save(Employee theEmployee);
